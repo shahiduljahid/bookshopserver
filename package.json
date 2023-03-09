@@ -1,14 +1,32 @@
 {
-  "name": "book-shop-server",
+  "name": "y",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js",
-    "start:dev":"nodemon index.js"
-
+    "start": "node index",
+    "dev": "nodemon index,js"
   },
-  "author": "shahidul",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahiduljahid/wedding-photographer-server.git"
+  },
+  "author": "sij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahiduljahid/wedding-photographer-server/issues"
+  },
+  "homepage": "https://github.com/shahiduljahid/wedding-photographer-server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2",
+    "nodemon": "^2.0.20"
+  }
 }
